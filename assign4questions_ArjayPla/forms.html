@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        FORMS
+    </title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navi">
+            <a href="index.html" class="home" #home">HOME</a>
+            <a href="menu.html" class="menu">MENU</a>
+            <a href="forms.html" class="forms">FORMS</a>
+        </nav>
+
+        <div class="container">
+            <div class="banner">
+                <img src="images/croissants_banner.jpg" alt="img" class="banners" />
+                <img src="images/bgb_logo.png" class="heading" />
+                <p class="texts">The delicious baked goods you love at Black Goose Bistro....Now available to go!</p>
+            </div>
+        </div>
+        <img src="images/award.png" class="sticky" />
+    </header>
+    <main>
+        <h1>Blackstone Bistro | Pizza-on-Demand</h1>
+        <p>Our 12<sup>th</sup> wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
+        <div class="container_info">
+                <fieldset>
+                    <legend>Your Information</legend>
+                    <table>
+                        <form>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" />
+                            <br />
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address" />
+                            <br />
+                            <label for="telephone">Tel. No.:</label>
+                            <input type="number" id="telephone" name="telephone" />
+                            <br />
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" />
+                            <br />
+                            <label for="instruction">Delivery Instruction:</label>
+                            <br />
+                            <textarea id="instruction" name="instruction" rows="4" cols="50">No more than 180 characters long</textarea>
+                            <br />
+                        </form>
+                    </table>
+                </fieldset>
+        </div>
+        <div class="container_design">
+            <fieldset>
+                <legend>
+                    Pizza specs
+                </legend>
+                <fieldset>
+                    <legend>
+                        Crust (Choose one):
+                    </legend>
+                    <form>
+                        <input type="radio" id="classic" name="crust" value="Classic White">
+                        <label for="classic">Classic White</label><br>
+                        <input type="radio" id="multi" name="crust" value="Multi Grain">
+                        <label for="multigrain">Multi Grain</label><br>
+                        <input type="radio" id="cheese" name="crust" value="Cheese-Stuffed Crust">
+                        <label for="cheese">Cheese-Stuffed Crust</label><br>
+                        <input type="radio" id="gluten" name="crust" value="Gluten Free">
+                        <label for="gluten">Gluten Free</label><br>
+                    </form>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Toppings (Choose as many as you want)
+                    </legend>
+                    <form>
+                        <input type="radio" id="red" value="Red Sauce">
+                        <label for="red">Red Sauce</label><br>
+                        <input type="radio" id="white" value="White Sauce">
+                        <label for="white">White Sauce</label><br>
+                        <input type="radio" id="cheese" value="Mozarella Cheese">
+                        <label for="cheese">Mozarella Cheese</label><br>
+                        <input type="radio" id="pepperoni" value="Pepperoni">
+                        <label for="pepperoni">Pepperoni</label><br>
+                        <input type="radio" id="mushroom" value="Mushroom">
+                        <label for="mushroom">Mushroom</label><br>
+                        <input type="radio" id="pepper" value="Peppers">
+                        <label for="pepper">Peppers</label><br>
+                        <input type="radio" id="anchovies" value="Anchovies">
+                        <label for="anchovies">Anchovies</label><br>
+                    </form>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Number
+                    </legend>
+                    <form>
+                        <label for="number">How many pizzas</label>
+                        <select name="number" id="cars">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </form>
+                </fieldset>
+            </fieldset>
+            <form>
+                <input type="submit" value="Bring me a pizza!" />
+                <input type="reset" value="Reset" />
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        All content copyright © 2017, Black Goose Bistro.
+    </footer>
+
+</body>
+</html>

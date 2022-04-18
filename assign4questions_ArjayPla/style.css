@@ -1,0 +1,122 @@
+.navi {
+    text-align: center;
+    background-color: #A45C40;
+    color: #FFA500;
+    margin: 0;
+    padding:0;
+    font-family: Verdana;
+    padding: 10px;
+}
+img.sticky {
+    position: fixed;
+    top: 5px;
+    width: 100px;
+}
+header{
+    margin-top:0;
+}
+body{
+    font-size: 20px;
+    font-family: Georgia, serif;
+    background-color: white;
+    margin: 0;
+    width: 90%;
+    margin-left :auto;
+    margin-right :auto;
+}
+.banner {
+    position:relative;
+    width: 100%;
+    margin:0 auto;
+}
+.banners {
+    width: 100%;
+}
+
+.heading {
+    position: absolute;
+    width: 30%;
+    top: 35%;
+    left: 35%;
+}
+
+.texts {
+    color: white;
+    position: absolute;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+h1 {
+    font-size: 25px;
+    color: gray;
+}
+h2 {
+    margin:5%;
+    color: darkred;
+    border-style: outset;
+    border-color: darkred;
+    border-bottom-color: white;
+    border-right-color: white;
+    font-size: 20px;
+}
+
+.bread {
+    vertical-align:middle;
+    float: left;
+}
+#caption_bread {
+    margin-bottom: 10px;
+    vertical-align:top; 
+    display:inline;
+}
+#caption_muffin {
+    margin-bottom: 10px;
+    vertical-align: top;
+    display: inline;
+}
+.containers {
+    clear: both;
+    display: table;
+    font-family: Stint Ultra Expanded;
+    margin-top: 10px;
+    padding: 4%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #E5F6DF;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.more_bread{
+    font-family:Verdana;
+    font-size:12px;
+    vertical-align:text-bottom;
+}
+.more_muffin {
+    color: darkorange;
+    font-family: Verdana;
+    font-size: 12px;
+    vertical-align: text-bottom;
+}
+.contain {
+    text-indent: 10px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hour{
+    color:black !important;
+    font-family: Stint Ultra Expanded;
+}
+footer{
+    margin-top: 5%;
+    font-size: 15px;
+    padding:10px;
+    background-color: saddlebrown;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

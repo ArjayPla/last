@@ -1,0 +1,41 @@
+h1{
+    font-family: BreeSerif-Regular;
+}
+body {
+    background: url("images/blackgoose.png") center repeat, url("images/plaid.png") left top repeat;
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+    font-family: Georgia;
+}
+.title{
+    text-align:center;  
+    color: #cd7a00;
+    font-size: 24px;
+    letter-spacing: 7px;
+}
+.container_header {
+    padding: 5px;
+    background-color: rgb(0,0,0,0.1);
+    text-align: center;
+    border: 10px solid;
+    border-image: url(images/purpledot.png) 0 11 0 11 round;
+}
+img.goose{
+    right:10px;
+    width:100px;
+    position:absolute;
+}
+.menu{
+    color:purple;
+}
+.list{
+    color:purple;
+}
+.indent{
+    text-indent: 50px;
+}
+footer{
+    font-size:15px;
+}
+
